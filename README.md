@@ -1,13 +1,13 @@
 <h2>TensorFlow-FlexUNet-Image-Segmentation-EMIDEC-Heart-MRI (2026/05/15)</h2>
 Sarah T. Arai<br>
 Software Laboratory antillia.com<br><br>
-This is the first experiment of Image Segmentation for <b>EMIDEC-Heart-MRI (3 classes)</b> based on 
+This is the first experiment of Image Segmentation for <b>EMIDEC-Heart-MRI</b> based on 
 our <a href="./src/TensorFlowFlexUNet.py">TensorFlowFlexUNet</a>
  (<b>TensorFlow Flexible UNet Image Segmentation Model for Multiclass</b>), and a 512x512 pixles upscaled PNG
  <a href="https://drive.google.com/file/d/1DJT8p1_Jwt4IWJcNVWsXMzDnrrYQpevk/view?usp=drive_link">
-Augmented-EMIDEC-Heart-MRI-ImageMask-Dataset.zip (RESTRICTED) </a> with colorized masks (<a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode">
-Creative Commons Attribution Non Commercial 4.0 International
-</a>), which was derived by us from <br><br>
+Augmented-EMIDEC-Heart-MRI-ImageMask-Dataset.zip</a> with colorized masks 
+(<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+Attribution-NonCommercial-ShareAlike 4.0 International</a>), which was derived by us from <br><br>
 <a href="https://www.kaggle.com/datasets/johnsonhk88/emidec-dataset-for-heart-mri-image/data">
 <b>EMIDEC Dataset For Heart MRI Image</b></a> by Johnson chong.
 <br><br>
@@ -102,9 +102,9 @@ MIT</a>
  If you would like to train this EMIDEC-Heart-MRI Segmentation model by yourself,
  please download the dataset from the google drive  
  <a href="https://drive.google.com/file/d/1DJT8p1_Jwt4IWJcNVWsXMzDnrrYQpevk/view?usp=drive_link">
-Augmented-EMIDEC-Heart-MRI-ImageMask-Dataset.zip (RESTRICTED)</a> (
-<a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode">
-Creative Commons Attribution Non Commercial 4.0 International</a>)
+Augmented-EMIDEC-Heart-MRI-ImageMask-Dataset.zip</a> (
+<a href="https://www.mit.edu/~amini/LICENSE.md">
+Attribution-NonCommercial-ShareAlike 4.0 International</a>)
 , expand the downloaded ImageMaskDataset and put it under <b>./dataset</b> folder to be
 <br>
 <pre>
